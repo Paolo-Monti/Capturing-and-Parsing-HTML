@@ -14,6 +14,6 @@ In Python, per ottenere il documento online ho usato la libreria requests (https
 
 Il lavoro è svolto principalmente dal cmdlet Invoke-WebRequest, introdotto con PowerShell 3.0. Come nei precedenti esempi, sono filtrati i risultati relativi ai bot. Infine, a titolo di esempio, l’output è mostrato in una tabella grafica.
 
-# PHP
+# PHP (Linux e Windows)
 
 In PHP, per catturare il documento è possibile usare la libreria cURL e, per effettuare il parsing del documento HTML, la classe DOMDocument. Di nuovo la condizione “if” finale è opzionale ed è usata solo per filtrare i bot dal risultato.

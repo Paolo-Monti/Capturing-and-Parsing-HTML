@@ -4,7 +4,7 @@ Estrare in Linux e Windows le stringhe User Agent presenti all’indirizzo https
 
 # Bash (Linux)
 
-Per effettuare un parsing semplice e pulito del documento HTML ottenuto con cURL, ho usato il programma pup, scritto da Eric Chiang: https://github.com/ericchiang/pup. Un programma dedicato come pup ci libera dall’impiegare regular expression, poco consigliabili per estrarre dati da tag HTML. Con l’uso di pup il tutto si riduce a un one-liner (comando su una sola riga). Da notare che l’uso di grep con opzione di inversione (-v) è opzionale e usato per filtrare le stringhe usate dai bot.
+Per effettuare un parsing semplice e pulito del documento HTML ottenuto con cURL, ho usato il programma pup, scritto da Eric Chiang: https://github.com/ericchiang/pup. Un programma dedicato come pup ci libera dall’impiegare regular expression, poco consigliabili per estrarre dati da tag HTML. Con l’uso di pup il tutto si riduce a un one-liner (comando su una sola riga). Da notare che l’uso di grep con opzione di inversione (-v) è opzionale e usato per filtrare le stringhe usate dai bot. Gli esempi sono nei file simple.sh, interrogazione effettuata senza controllo di errori, e nel file with_error_check.sh, dove è incluso un controllo d'errore essenziale.
 
 # Python (Linux e Windows)
 

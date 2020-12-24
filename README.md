@@ -16,4 +16,4 @@ Il lavoro è svolto principalmente dal cmdlet Invoke-WebRequest, introdotto con 
 
 # PHP
 
-In PHP, per catturare il documento è possibile usare la libreria cURL e per effettuare il parsing del documento HTML, la classe DOMDocument. Di nuovo la condizione “if” finale è opzionale ed è usata solo per filtrare i bot dal risultato.
+In PHP, per catturare il documento è possibile usare la libreria cURL e, per effettuare il parsing del documento HTML, la classe DOMDocument. Di nuovo la condizione “if” finale è opzionale ed è usata solo per filtrare i bot dal risultato.

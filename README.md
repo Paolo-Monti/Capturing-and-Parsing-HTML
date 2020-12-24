@@ -10,7 +10,7 @@ Per effettuare un parsing semplice e pulito del documento HTML ottenuto con cURL
 
 In Python, per ottenere il documento online ho usato la libreria requests (https://requests.readthedocs.io/en/master/) e, per effettuare il parsing del codice HTML, la libreria BeautifulSoup (https://www.crummy.com/software/BeautifulSoup/bs4/doc/). L’uso di queste librerie rende il compito molto semplice e il codice compatto ed essenziale. Di nuovo, la condizione “if” è opzionale ed è presente solo per escludere le stringhe User Agent dei motori di ricerca. Da notare che i messaggi diagnostici sono scritti sullo standard error, in modo tale da escluderne l’output in una eventuale redirezione dell’I/O verso un file, dove possono essere memorizzate le stringhe estrapolate dallo script.
 
-# Powershell (Windows, Powershel >= 3 e < 6)
+# Powershell (Windows, Powershell >= 3 e < 6)
 
 Il lavoro è svolto principalmente dal cmdlet Invoke-WebRequest, introdotto con PowerShell 3.0. Come nei precedenti esempi, sono filtrati i risultati relativi ai bot. Infine, a titolo di esempio, l’output è mostrato in una tabella grafica.
 

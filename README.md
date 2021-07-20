@@ -1,6 +1,6 @@
 # Obiettivo
 
-Estrare in Linux e Windows le stringhe User Agent presenti all’indirizzo https://deviceatlas.com/blog/list-of-user-agent-strings
+Estrarre in Linux e Windows le stringhe User Agent presenti all’indirizzo https://deviceatlas.com/blog/list-of-user-agent-strings
 
 # Bash (Linux)
 
